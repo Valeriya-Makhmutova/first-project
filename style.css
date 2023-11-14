@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: #1e1e1e;
     font-family: 'Inter', sans-serif;
+    background-color: #1e1e1e;
 }
 
 h1,
@@ -21,26 +21,26 @@ blockquote {
 }
 
 .content-section {
+    box-sizing: border-box;
     width: 360px;
     margin-right: auto;
     margin-left: auto;
-    box-sizing: border-box;
 }
 
 .content-section_theme_dark {
-    background-color: black;
     color: white;
+    background-color: black;
 }
 
 .content-section_theme_bright {
-    background-color: yellow;
     color: black;
+    background-color: yellow;
 }
 
 .header {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 24px 20px;
 }
 
@@ -50,17 +50,17 @@ blockquote {
 }
 
 .header_logo-image {
-    width: 100%
+    width: 100%;
 }
 
 .header_menu-list {
-    list-style-type: none;
-    color: white;
-    font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
 }
 
 .header__menu-link {
@@ -68,20 +68,20 @@ blockquote {
 }
 
 .cover {
-    color: white;
     padding: 7px 26px 30px 20px;
+    color: white;
     background-color: black;
     background-image: url(./images/cover.svg);
     background-repeat: no-repeat;
-    background-size: 95% auto;
     background-position: right center;
+    background-size: 95% auto;
 }
 
 .cover__title {
     font-family: 'EB Garamond', sans-serif;
+    font-weight: 400;
     font-size: 72px;
     font-style: normal;
-    font-weight: 400;
     line-height: 100%;
 }
 
@@ -98,31 +98,31 @@ blockquote {
 }
 
 .intro {
-    color: #F5F5F5;
-    font-family: Inter;
-    padding: 0 20px 38px;
-    font-style: normal;
-    font-weight: 400;
     display: flex;
-    height: 453px;
     flex-direction: column;
+    flex-shrink: 0;
     align-items: flex-start;
     gap: 24px;
-    flex-shrink: 0;
+    height: 453px;
+    padding: 0 20px 38px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .intro__heading {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
-    color: #ccc;
     gap: 22px;
+    color: #ccc;
+    font-size: 16px;
 }
 
 .intro__title {
+    font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 21.6px;
 }
 
@@ -139,26 +139,26 @@ blockquote {
 }
 
 .reasons {
-    color: #131313;
     display: flex;
     flex-direction: column;
-    gap: 32px;
     flex-shrink: 0;
+    gap: 32px;
     padding: 40px 20px;
+    color: #131313;
 }
 
 .content-section__subtitle span {
     font-family: 'EB Garamond', sans-serif;
+    font-weight: 500;
     font-size: 28px;
     font-style: normal;
-    font-weight: 500;
     line-height: 115%;
 }
 
 .content-section__introduction {
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: 27px;
 }
 
@@ -167,15 +167,15 @@ blockquote {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 .content-section__list-item {
     width: 304px;
+    font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 21.6px;
 }
 
@@ -184,8 +184,8 @@ blockquote {
 }
 
 .how-to {
-    color: white;
     padding: 40px 20px 60px;
+    color: white;
 }
 
 .content-section__introduction {
@@ -206,8 +206,8 @@ blockquote {
 }
 
 .cards-list  {
-    width: 319px;
     gap: 32px;
+    width: 319px;
     list-style-type: none;
 }
 
@@ -217,8 +217,8 @@ blockquote {
 }
 
 .card_theme_bright {
-    color: black;
     border-radius: 30px;
+    color: black;
     background: var(--yellow-bg, #FEE42A);
 }
 
@@ -231,9 +231,9 @@ blockquote {
 
 .card__author-name {
     font-family: Inter;
+    font-weight: 700;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
     line-height: 135%;
 }
 
@@ -250,36 +250,36 @@ blockquote {
 }
 
 .list-item {
+    gap: 8px;
     width: 319px;
     padding: 20px;
-    gap: 8px;
 }
 
 .card__title {
     font-family: EB Garamond;
+    font-weight: 500;
     font-size: 22px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 135%
+    line-height: 135%;
 }
 
 .card__text {
+    font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 21.6px;
 }
 
 
 .footer {
-    padding: 20px;
-    background-color: #131313;
-    color: white;
     display: flex;
-    width: 360px;
     justify-content: space-between;
     align-items: center;
+    width: 360px;
     border-top: 1px solid #FEE42A;
+    padding: 20px;
+    color: white;
+    background-color: #131313;
 }
 
 .footer__links {
